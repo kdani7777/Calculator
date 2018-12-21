@@ -1,0 +1,45 @@
+body {
+  background-color: #e6ffcc;
+}
+
+.calc-frame {
+  position: relative;
+  top: 100px;
+  margin: auto;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.equation {
+  text-align: right;
+  line-height: 50px;
+  width: 100%;
+  font-size: 170%;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 10px;
+  /*border: 1px solid black;*/
+  height: 400px;
+  background-color: #3399ff;
+}
+
+button {
+  font-size: 170%;
+}
+
+.operator {
+  background-color: #e6005c;
+}
+
+.operator:focus {
+  outline: none;
+}
+
+#zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
